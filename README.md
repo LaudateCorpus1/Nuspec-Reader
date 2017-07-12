@@ -1,6 +1,6 @@
 # NAME
 
-Nuspec::Reader - It's new $module
+Nuspec::Reader - Parse .nuspec file and get access to different parts.
 
 # SYNOPSIS
 
@@ -12,7 +12,7 @@ Nuspec::Reader is ...
 
 # LICENSE
 
-Copyright (C) Miroslav Tynovsky.
+Copyright (C) Avast Software
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
