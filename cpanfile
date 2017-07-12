@@ -11,4 +11,11 @@ on 'test' => sub {
 on 'develop' => sub {
     requires 'Minilla';
     requires 'Module::Build::Tiny';
+    requires 'Test::CPAN::Meta';
+    requires 'Test::MinimumVersion::Fast';
+    requires 'Test::PAUSE::Permissions';
+    requires 'Test::Pod';
+    requires 'Test::Spellunker';
+    requires 'Version::Next';
+    requires 'CPAN::Uploader';
 };
